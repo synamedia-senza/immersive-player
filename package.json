@@ -1,0 +1,32 @@
+{
+  "name": "immersive-video-app",
+  "version": "1.0.0",
+  "description": "An immersive video playback application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [
+    "immersive",
+    "video",
+    "Senza",
+    "Synamedia"
+  ],
+  "author": "Sergio Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^4.7.0"
+  },
+  "dependencies": {
+    "@Synamedia/hs-sdk": "^3.19.5",
+    "shaka-player": "^3.2.1",
+    "three": "^0.165.0"
+  }
+}
+
